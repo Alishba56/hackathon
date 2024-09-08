@@ -5,7 +5,6 @@ const resumeSection = document.getElementById('generated-resume') as HTMLElement
 // Event listener for form submission
 resumeForm.addEventListener('submit', function (e: Event) {
     e.preventDefault(); // Prevent form submission to server
-
     // Capture form input values
     const name = (document.getElementById('name') as HTMLInputElement).value;
     const email = (document.getElementById('email') as HTMLInputElement).value;
