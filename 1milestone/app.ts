@@ -14,7 +14,6 @@ if (skillsSection && toggleSkillsBtn) {
             toggleSkillsBtn.textContent = "Show Skills"; // Change button text
         }
     };
-
     // Add event listener to button for click event
     toggleSkillsBtn.addEventListener("click", toggleSkillsVisibility);
 }
