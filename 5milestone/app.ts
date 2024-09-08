@@ -43,7 +43,6 @@ resumeForm.addEventListener('submit', function (e: Event) {
             ${skills.map(skill => `<li contenteditable="true">${skill.trim()}</li>`).join('')}
         </ul>
     `;
-
     // Generate unique URL for sharing
     const currentUrl = window.location.origin;
     const resumeUrl = `${currentUrl}/resume?username=${username}`;
