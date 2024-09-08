@@ -1,7 +1,6 @@
 // Selecting form and resume display area
 const resumeForm = document.getElementById('resume-form') as HTMLFormElement;
 const resumeSection = document.getElementById('generated-resume') as HTMLElement;
-
 // Event listener for form submission
 resumeForm.addEventListener('submit', function (e: Event) {
     e.preventDefault(); // Prevent form submission to server
